@@ -11,5 +11,5 @@ func (j *JazzGenreFactory) CreateGenre() factory.MusicGenre {
 type JazzGenre struct{}
 
 func (j *JazzGenre) Play() string {
-	return "Playing a Jazz track..."
+	return ""
 }

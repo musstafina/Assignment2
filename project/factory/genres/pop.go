@@ -11,5 +11,5 @@ func (p *PopGenreFactory) CreateGenre() factory.MusicGenre {
 type PopGenre struct{}
 
 func (p *PopGenre) Play() string {
-	return "Playing a Pop track..."
+	return ""
 }

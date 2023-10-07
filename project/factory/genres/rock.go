@@ -11,5 +11,5 @@ func (r *RockGenreFactory) CreateGenre() factory.MusicGenre {
 type RockGenre struct{}
 
 func (r *RockGenre) Play() string {
-	return "Playing a Rock track ..."
+	return ""
 }
